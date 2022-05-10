@@ -1,0 +1,17 @@
+D:\Універ\ОП\2 семестр\Роботи\Prac2\bin\Debug\Prac2.exe
+D:\Універ\ОП\2 семестр\Роботи\Prac2\bin\Debug\Prac2.exe.config
+D:\Універ\ОП\2 семестр\Роботи\Prac2\bin\Debug\Prac2.pdb
+D:\Універ\ОП\2 семестр\Роботи\Prac2\obj\Debug\Prac2.csproj.AssemblyReference.cache
+D:\Універ\ОП\2 семестр\Роботи\Prac2\obj\Debug\MainWindow.baml
+D:\Універ\ОП\2 семестр\Роботи\Prac2\obj\Debug\SecondWindow.baml
+D:\Універ\ОП\2 семестр\Роботи\Prac2\obj\Debug\MainWindow.g.cs
+D:\Універ\ОП\2 семестр\Роботи\Prac2\obj\Debug\SecondWindow.g.cs
+D:\Універ\ОП\2 семестр\Роботи\Prac2\obj\Debug\App.g.cs
+D:\Універ\ОП\2 семестр\Роботи\Prac2\obj\Debug\Prac2_MarkupCompile.cache
+D:\Універ\ОП\2 семестр\Роботи\Prac2\obj\Debug\Prac2_MarkupCompile.lref
+D:\Універ\ОП\2 семестр\Роботи\Prac2\obj\Debug\Prac2.g.resources
+D:\Універ\ОП\2 семестр\Роботи\Prac2\obj\Debug\Prac2.Properties.Resources.resources
+D:\Універ\ОП\2 семестр\Роботи\Prac2\obj\Debug\Prac2.csproj.GenerateResource.cache
+D:\Універ\ОП\2 семестр\Роботи\Prac2\obj\Debug\Prac2.csproj.CoreCompileInputs.cache
+D:\Універ\ОП\2 семестр\Роботи\Prac2\obj\Debug\Prac2.exe
+D:\Універ\ОП\2 семестр\Роботи\Prac2\obj\Debug\Prac2.pdb
