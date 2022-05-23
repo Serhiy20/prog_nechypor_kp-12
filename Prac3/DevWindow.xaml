@@ -1,0 +1,14 @@
+﻿<Window x:Class="Prac3.DevWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prac3"
+        mc:Ignorable="d"
+        Title="DevWindow" Height="340.8" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="shield.png">
+    <Grid Margin="0,0,-0.4,-0.8">
+        <Label Content="ПІБ розробника: Нечипор Сергій Віталійович&#xD;&#xA;Вік: 17 років&#xA;Освіта розробника: навчається на 1 курсі НТУУ 'КПІ імені Ігоря Сікорського'&#xD;&#xA;Спеціальність: Інженерія програмного забезпечення&#xD;&#xA;Місце проживання: Україна, м. Вінниця&#xD;&#xA;" HorizontalAlignment="Left" Margin="40,70,0,0" VerticalAlignment="Top" Height="117" Width="688" FontFamily="Book Antiqua" FontSize="18" FontWeight="Bold"/>
+        <Button x:Name="ToWin1" Content="Закрити вікно" HorizontalAlignment="Left" Margin="537,243,0,0" VerticalAlignment="Top" Width="228" Height="39" FontFamily="Times New Roman" FontSize="20" Click="ToWin1_Click"/>
+
+    </Grid>
+</Window>

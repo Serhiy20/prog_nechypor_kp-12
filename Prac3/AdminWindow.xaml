@@ -1,0 +1,48 @@
+﻿<Window x:Class="Prac3.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prac3"
+        mc:Ignorable="d"
+        Title="AdminWindow" Height="600" Width="900" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="shield.png">
+    <Grid>
+        <Label Content="Введіть пароль адміністратора" HorizontalAlignment="Left" Margin="25,24,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="18" Width="250"/>
+        <TextBox x:Name="admin_pass"  HorizontalAlignment="Left" Height="24" Margin="25,59,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250" TextAlignment="Center"/>
+        <Button x:Name="LogIn" Content="Авторизуватись" HorizontalAlignment="Left" Margin="25,88,0,0" VerticalAlignment="Top" Width="250" Height="30" FontFamily="Times New Roman" FontSize="20" Click="LogIn_Click"/>
+        <Label Content="Перегляд користувачів списком" HorizontalAlignment="Left" Margin="25,150,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="18" Width="250"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="351" Margin="10,185,0,0" VerticalAlignment="Top" Width="299"/>
+        <Label Content="ЗМІНА ПАРОЛЮ АДМІНІСТРАТОРА" HorizontalAlignment="Left" Margin="444,24,0,0" VerticalAlignment="Top" Height="30" Width="356" FontFamily="Book Antiqua" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="Введіть поточний пароль" HorizontalAlignment="Left" Margin="403,62,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="18" Width="210"/>
+        <Label Content="Введіть новий пароль" HorizontalAlignment="Left" Margin="403,97,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="18" Width="210"/>
+        <Label Content="Повторіть пароль" HorizontalAlignment="Left" Margin="403,132,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="18" Width="210"/>
+        <TextBox x:Name="change_pass" HorizontalAlignment="Left" Height="24" Margin="671,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145" TextAlignment="Center"/>
+        <TextBox x:Name="change_newpass" HorizontalAlignment="Left" Height="24" Margin="671,103,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145" TextAlignment="Center"/>
+        <TextBox x:Name="change_newpass2" HorizontalAlignment="Left" Height="24" Margin="671,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145" TextAlignment="Center"/>
+        <Label Content="Перегляд кожного користувача" HorizontalAlignment="Left" Margin="363,207,0,0" VerticalAlignment="Top" FontSize="18" Width="322" FontFamily="Book Antiqua" FontWeight="Bold"/>
+        <Button x:Name="Update" Content="Оновити" HorizontalAlignment="Left" Margin="565,172,0,0" VerticalAlignment="Top" Width="120" Height="30" FontFamily="Times New Roman" FontSize="16" Click="Update_Click"/>
+        <Label Content="Ім'я користувача" HorizontalAlignment="Left" Margin="363,246,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="Прізвище користувача" HorizontalAlignment="Left" Margin="363,280,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="Логін" HorizontalAlignment="Left" Margin="637,246,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="Статус" HorizontalAlignment="Left" Margin="637,280,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16"/>
+        <Button x:Name="Prev" Content="Попередній" HorizontalAlignment="Left" Margin="363,324,0,0" VerticalAlignment="Top" Width="120" Height="30" FontFamily="Times New Roman" FontSize="16" Click="Prev_Click"/>
+        <Button x:Name="Next" Content="Наступний" HorizontalAlignment="Left" Margin="739,324,0,0" VerticalAlignment="Top" Width="120" Height="30" FontFamily="Times New Roman" FontSize="16" Click="Next_Click"/>
+        <Label Content="Обмеження на пароль" HorizontalAlignment="Left" Margin="490,324,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" Height="31"/>
+        <Label x:Name="selected_name" Content="" HorizontalAlignment="Left" Margin="537,246,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" Width="100"/>
+        <Label x:Name="selected_surname" Content="" HorizontalAlignment="Left" Margin="537,280,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" Width="100"/>
+        <Label x:Name="selected_login" Content="" HorizontalAlignment="Left" Margin="716,246,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" Width="100"/>
+        <Label x:Name="selected_status" Content="" HorizontalAlignment="Left" Margin="716,280,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" Width="100"/>
+        <Label x:Name="selected_restriction" Content="" HorizontalAlignment="Left" Margin="650,324,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" Width="84"/>
+        <Label Content="Додавання користувача" HorizontalAlignment="Left" Margin="363,377,0,0" VerticalAlignment="Top" FontFamily="Book Antiqua" FontWeight="Bold" FontSize="16" Width="200"/>
+        <TextBox x:Name="adduser_login" HorizontalAlignment="Left" Height="30" Margin="363,412,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" TextAlignment="Center"/>
+        <Button x:Name="Add_user" Content="Додати користувача" HorizontalAlignment="Left" Margin="363,460,0,0" VerticalAlignment="Top" Width="160" Height="30" FontFamily="Times New Roman" FontSize="16" Click="Add_user_Click"/>
+        <Button x:Name="Exit" Content="Вийти з системи" HorizontalAlignment="Left" Margin="363,506,0,0" VerticalAlignment="Top" Width="160" Height="30" FontFamily="Times New Roman" FontSize="16" Click="Exit_Click"/>
+        <Label Content="Користувач" HorizontalAlignment="Left" Margin="593,377,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="18" Width="100"/>
+        <ComboBox x:Name="Users_logins" HorizontalAlignment="Left" Margin="739,377,0,0" VerticalAlignment="Top" Width="120" Height="30" SelectionChanged="UsersLogins_SelectionChanged"/>
+        <CheckBox x:Name="ChangeActive" Content="Активність" HorizontalAlignment="Left" Margin="593,430,0,0" VerticalAlignment="Top" Height="28" Width="120" FontSize="16" FontFamily="Times New Roman"/>
+        <CheckBox x:Name="ChangeRestriction" Content="Обмеження на&#xD;&#xA;пароль" HorizontalAlignment="Left" Margin="593,467,0,0" VerticalAlignment="Top" Height="40" Width="120" FontSize="16" FontFamily="Times New Roman"/>
+        <Button x:Name="CorrectRestriction" Content="Встановити" HorizontalAlignment="Left" Margin="725,469,0,0" VerticalAlignment="Top" Width="140" Height="30" FontFamily="Times New Roman" FontSize="16" Click="CorrectRestriction_Click"/>
+        <Button x:Name="CorrectStatus" Content="Встановити" HorizontalAlignment="Left" Margin="725,423,0,0" VerticalAlignment="Top" Width="140" Height="30" FontFamily="Times New Roman" FontSize="16" Click="CorrectStatus_Click"/>
+        <Button x:Name="ToWin1" Content="Закрити режим адміністратора" HorizontalAlignment="Left" Margin="637,521,0,0" VerticalAlignment="Top" Width="228" Height="39" FontFamily="Times New Roman" FontSize="16" Click="ToWin1_Click"/>
+    </Grid>
+</Window>
