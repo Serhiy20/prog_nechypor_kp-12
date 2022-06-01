@@ -1,0 +1,21 @@
+﻿<Window x:Class="TermPaper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TermPaper"
+        mc:Ignorable="d"
+        Title="Інформаційна система футбольного чемпіонату" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="icon.png">
+    <Window.Background>
+        <ImageBrush ImageSource="football.jpg" Stretch="UniformToFill"/>
+    </Window.Background>
+    <Grid>
+        <Button x:Name="ClubsBtn" Content="Переглянути інформацію про клуби" HorizontalAlignment="Left" Margin="50,29,0,0" VerticalAlignment="Top" Width="280" Height="50" Click="ClubsBtn_Click" FontFamily="Times New Roman" FontSize="16"/>
+        <Button x:Name="Exit" Content="Закрити програму" HorizontalAlignment="Left" Margin="29,354,0,0" VerticalAlignment="Top" Width="150" Height="35" Click="Exit_Click" FontFamily="Times New Roman" FontSize="16"/>
+        <Button x:Name="GamesBtn" Content="Переглянути історію ігор" HorizontalAlignment="Left" Margin="50,194,0,0" VerticalAlignment="Top" Width="280" Height="50" Click="GamesBtn_Click" FontFamily="Times New Roman" FontSize="16"/>
+        <Button x:Name="ResultsBtn" Content="Переглянути таблиці чемпіонату" HorizontalAlignment="Left" Margin="50,139,0,0" VerticalAlignment="Top" Width="280" Height="50" Click="ResultsBtn_Click" FontFamily="Times New Roman" FontSize="16"/>
+        <Button x:Name="StadiumsBtn" Content="Переглянути інформацію про стадіони" HorizontalAlignment="Left" Margin="50,84,0,0" VerticalAlignment="Top" Width="280" Height="50" Click="StadiumsBtn_Click" FontFamily="Times New Roman" FontSize="16"/>
+        <Button x:Name="TicketsBtn" Content="Придбати квиток на гру" HorizontalAlignment="Left" Margin="50,249,0,0" VerticalAlignment="Top" Width="280" Height="50" Click="TicketsBtn_Click" FontFamily="Times New Roman" FontSize="16"/>
+
+    </Grid>
+</Window>

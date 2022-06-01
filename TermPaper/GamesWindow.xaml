@@ -1,0 +1,23 @@
+﻿<Window x:Class="TermPaper.GamesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TermPaper"
+        mc:Ignorable="d"
+        Title="GamesWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="icon.png">
+    <Grid>
+        <Button x:Name="Exit" Content="До головного вікна" HorizontalAlignment="Left" Margin="635,10,0,0" VerticalAlignment="Top" Width="145" Height="30" Click="Exit_Click" FontFamily="Times New Roman" FontSize="16"/>
+        <ComboBox x:Name="CBClub" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="174"/>
+        <ComboBox x:Name="CBStadium" HorizontalAlignment="Left" Margin="189,38,0,0" VerticalAlignment="Top" Width="203"/>
+        <ComboBox x:Name="CBDate" HorizontalAlignment="Left" Margin="397,38,0,0" VerticalAlignment="Top" Width="184" RenderTransformOrigin="0.348,0.655"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="321" Margin="10,89,0,0" VerticalAlignment="Top" Width="770"/>
+        <Button x:Name="Button1" Content="Обрати" HorizontalAlignment="Left" Margin="109,65,0,0" VerticalAlignment="Top" Width="75" Click="Button1_Click" FontFamily="Times New Roman" FontSize="14"/>
+        <Button x:Name="Button2" Content="Обрати" HorizontalAlignment="Left" Margin="317,65,0,0" VerticalAlignment="Top" Width="75" Click="Button2_Click" FontFamily="Times New Roman" FontSize="14"/>
+        <Button x:Name="Button3" Content="Обрати" HorizontalAlignment="Left" Margin="506,65,0,0" VerticalAlignment="Top" Width="75" Click="Button3_Click" FontFamily="Times New Roman" FontSize="14"/>
+        <Button x:Name="Button4" Content="Вивести повний графік ігор" HorizontalAlignment="Left" Margin="604,54,0,0" VerticalAlignment="Top" Width="176" Click="Button4_Click" Height="30" FontFamily="Times New Roman" FontSize="14"/>
+        <Label Content="Вивести матчі клубу:" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="174" HorizontalContentAlignment="Center"/>
+        <Label Content="Вивесті матчі на стадіоні:" HorizontalAlignment="Left" Margin="189,7,0,0" VerticalAlignment="Top" Width="203" HorizontalContentAlignment="Center"/>
+        <Label Content="Вивести матчі в обраний день:" HorizontalAlignment="Left" Margin="397,7,0,0" VerticalAlignment="Top" Width="184" HorizontalContentAlignment="Center"/>
+    </Grid>
+</Window>
